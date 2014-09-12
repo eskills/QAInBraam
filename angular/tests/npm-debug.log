@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'appium' ]
+2 info using npm@2.0.0-alpha-5
+3 info using node@v0.10.29
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'appium', null ]
+6 verbose cache add spec="appium" args=["appium",null]
+7 verbose parsed spec { raw: 'appium',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: 'appium',
+7 verbose parsed spec   rawSpec: '',
+7 verbose parsed spec   spec: '*',
+7 verbose parsed spec   type: 'range' }
+8 verbose addNamed [ 'appium', '*' ]
+9 verbose addNamed [ null, '*' ]
+10 silly lockFile 20c779d5-appium appium@*
+11 verbose lock appium@* /Users/esebetseba/.npm/20c779d5-appium.lock
+12 silly addNameRange { name: 'appium', range: '*', hasData: false }
+13 verbose mapToRegistry name appium
+14 verbose mapToRegistry uri https://registry.npmjs.org/appium
+15 verbose request where is /appium
+16 verbose request registry https://registry.npmjs.org/
+17 verbose request id 63b01de22b5c877e
+18 verbose request url raw /appium
+19 verbose request url resolving [ 'https://registry.npmjs.org/', './appium' ]
+20 verbose request url resolved https://registry.npmjs.org/appium
+21 verbose request where is https://registry.npmjs.org/appium
+22 verbose request no basic auth needed
+23 info trying registry request attempt 1 at 16:33:37
+24 verbose etag "5O1VMYNOFYPPBWGS9VEAKYY35"
+25 http GET https://registry.npmjs.org/appium
+26 http 304 https://registry.npmjs.org/appium
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Sat, 26 Jul 2014 14:33:41 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Sat, 26 Jul 2014 14:33:42 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"5O1VMYNOFYPPBWGS9VEAKYY35"',
+27 silly registry.get     'x-served-by': 'cache-lcy1121-LCY',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1406385221.591036,VS0,VE767',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/appium from cache
+29 silly addNameRange number 2 { name: 'appium', range: '*', hasData: true }
+30 silly addNameRange versions [ 'appium',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '0.0.5',
+30 silly addNameRange     '0.0.6',
+30 silly addNameRange     '0.0.7',
+30 silly addNameRange     '0.0.8',
+30 silly addNameRange     '0.0.9',
+30 silly addNameRange     '0.0.10',
+30 silly addNameRange     '0.0.11',
+30 silly addNameRange     '0.0.12',
+30 silly addNameRange     '0.0.13',
+30 silly addNameRange     '0.0.14',
+30 silly addNameRange     '0.0.15',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.3.1',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.5.2',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.6.1',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.7.1',
+30 silly addNameRange     '0.7.2',
+30 silly addNameRange     '0.7.3',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.8.1',
+30 silly addNameRange     '0.8.2',
+30 silly addNameRange     '0.8.3',
+30 silly addNameRange     '0.8.4',
+30 silly addNameRange     '0.8.5',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.9.1',
+30 silly addNameRange     '0.10.0',
+30 silly addNameRange     '0.10.1',
+30 silly addNameRange     '0.10.2',
+30 silly addNameRange     '0.10.3',
+30 silly addNameRange     '0.10.4',
+30 silly addNameRange     '0.11.0',
+30 silly addNameRange     '0.11.1',
+30 silly addNameRange     '0.11.2',
+30 silly addNameRange     '0.11.3',
+30 silly addNameRange     '0.11.4',
+30 silly addNameRange     '0.12.0',
+30 silly addNameRange     '0.12.1-b',
+30 silly addNameRange     '0.12.2',
+30 silly addNameRange     '0.12.3',
+30 silly addNameRange     '0.13.0',
+30 silly addNameRange     '0.14.0',
+30 silly addNameRange     '0.14.1',
+30 silly addNameRange     '0.14.2',
+30 silly addNameRange     '0.15.0',
+30 silly addNameRange     '0.16.0',
+30 silly addNameRange     '0.17.0',
+30 silly addNameRange     '0.17.2',
+30 silly addNameRange     '0.17.3',
+30 silly addNameRange     '0.17.4',
+30 silly addNameRange     '0.17.5',
+30 silly addNameRange     '0.17.6',
+30 silly addNameRange     '0.18.0',
+30 silly addNameRange     '0.18.1',
+30 silly addNameRange     '1.0.0-beta.1',
+30 silly addNameRange     '0.18.2',
+30 silly addNameRange     '1.0.0-beta.2',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.2.0' ] ]
+31 verbose addNamed [ 'appium', '1.2.0' ]
+32 verbose addNamed [ '1.2.0', '1.2.0' ]
+33 silly lockFile 3a77f6ad-appium-1-2-0 appium@1.2.0
+34 verbose lock appium@1.2.0 /Users/esebetseba/.npm/3a77f6ad-appium-1-2-0.lock
+35 silly lockFile 37251f3c-pmjs-org-appium-appium-1-2-0-tgz https://registry.npmjs.org/appium/-/appium-1.2.0.tgz
+36 verbose lock https://registry.npmjs.org/appium/-/appium-1.2.0.tgz /Users/esebetseba/.npm/37251f3c-pmjs-org-appium-appium-1-2-0-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/appium/-/appium-1.2.0.tgz',
+37 verbose addRemoteTarball   '0babe1c51d877a7c9ee92c89e2a040b413378374' ]
+38 info retry fetch attempt 1 at 16:33:42
+39 verbose fetch to= /var/folders/b9/96cb_89x01q2b9b2xqt3ff8w0000gp/T/npm-35087-dJHueynd/registry.npmjs.org/appium/-/appium-1.2.0.tgz
+40 http GET https://registry.npmjs.org/appium/-/appium-1.2.0.tgz
+41 http 200 https://registry.npmjs.org/appium/-/appium-1.2.0.tgz
+42 silly lockFile 37251f3c-pmjs-org-appium-appium-1-2-0-tgz https://registry.npmjs.org/appium/-/appium-1.2.0.tgz
+43 silly lockFile 37251f3c-pmjs-org-appium-appium-1-2-0-tgz https://registry.npmjs.org/appium/-/appium-1.2.0.tgz
+44 silly lockFile 3a77f6ad-appium-1-2-0 appium@1.2.0
+45 silly lockFile 3a77f6ad-appium-1-2-0 appium@1.2.0
+46 silly lockFile 20c779d5-appium appium@*
+47 silly lockFile 20c779d5-appium appium@*
+48 error Error: shasum check failed for /var/folders/b9/96cb_89x01q2b9b2xqt3ff8w0000gp/T/npm-35087-dJHueynd/registry.npmjs.org/appium/-/appium-1.2.0.tgz
+48 error Expected: 0babe1c51d877a7c9ee92c89e2a040b413378374
+48 error Actual:   4ba8cb486ed2e07546f136b0e53aca55c3e157f0
+48 error From:     https://registry.npmjs.org/appium/-/appium-1.2.0.tgz
+48 error     at /usr/local/lib/node_modules/npm/node_modules/sha/index.js:38:8
+48 error     at ReadStream.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/sha/index.js:85:7)
+48 error     at ReadStream.emit (events.js:117:20)
+48 error     at _stream_readable.js:929:16
+48 error     at process._tickCallback (node.js:419:13)
+49 error If you need help, you may report this *entire* log,
+49 error including the npm and node versions, at:
+49 error     <http://github.com/npm/npm/issues>
+50 error System Darwin 13.3.0
+51 error command "node" "/usr/local/bin/npm" "install" "-g" "appium"
+52 error cwd /Users/esebetseba/Documents/workcopy/Learning/QAInBraam/angular/tests
+53 error node -v v0.10.29
+54 error npm -v 2.0.0-alpha-5
+55 verbose exit [ 1, true ]
